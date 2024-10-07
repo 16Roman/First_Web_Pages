@@ -1,0 +1,23 @@
+html
+{background-color:#FDE9D9;}
+h1
+{font-family:"Sofia", sans-serif;
+border-radius: 200px;
+border: 10px solid;
+text-align: center;
+font-size:xx-large;}
+h3
+{ background-color: #CDA2A4;
+font-size: larger;}
+a
+{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color:black;}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    
+}

@@ -1,0 +1,137 @@
+html{
+    background-color: rgb(171, 0, 0);
+}
+
+header h1{ text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 65px;}
+
+.Phrase{color:white;
+text-align: center;
+font-family: 'Raleway', sans-serif;
+font-size: 31px;}
+
+.Switch{
+width:100%;
+flex: 3;
+font-family: 'Raleway', sans-serif;
+margin:50px;
+
+}
+
+.Container{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.Console{background-color:black;
+    border-radius:10px;
+    font-family: 'Raleway', sans-serif;
+ 
+
+}
+
+.SonyAcc{
+    width:45%;
+    border: 4px blue solid;
+}
+.SonyPS5{
+    width:45%;
+    float: left;
+    border: 4px blue solid;
+    max-width: 300px;
+}
+
+.Xbox{
+    width:45%;
+    border: 4px green solid;
+}
+
+.SwitchAcc{
+    width:45%;
+    border: 4px gray solid;
+}
+
+.Game{
+    width: 40%;
+    border:4px white solid;
+    
+}
+img:hover{
+    width:70%;
+}
+
+nav{display: inline-block; margin-left:250px;
+border:5px solid;
+border-radius: 20px;
+border-color: white;
+background-color:white;
+font-family: 'Raleway', sans-serif;
+padding: 0;
+}
+
+body article{
+    margin-top: 150px; margin-bottom: 150px;
+    font-family: 'Raleway', sans-serif;font-family: 'Raleway', sans-serif;
+}
+
+aside{
+    color:white; background-color: black;
+    border:5px solid;
+    border-color: black;
+    border-radius: 10px;
+    width:35%;
+    height:100%;
+    flex:1;
+   
+}
+
+aside h3{
+    margin-top: 100px;
+    margin-bottom:150px;
+    border:2px solid;
+    border-color: white;
+    border-radius: 5px;
+    background-color:white;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 160%
+
+}
+
+article h2{
+    text-align: center;
+    border:2px solid;
+    border-radius: 7px;
+    background-color:black;
+    border-color: black;
+    color:white;
+    width:100%;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+p{
+color:white;
+}
+ul{
+    color:white;
+    margin-left:50%;
+    margin-bottom: 200px;
+}
+footer{
+    font-family: 'Raleway', sans-serif;
+}
+
+article p{
+    font-size: larger;
+}
+
+a{
+    color:black;
+}
+a:hover{
+    color:red;
+}
+

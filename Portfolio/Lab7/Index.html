@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Menu</title>
+		<link type="text/css" rel="stylesheet" href="CSS/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+		<script>
+			function toggleMenu(arg){
+    if(document.getElementById(arg).style.display=='block'){
+        document.getElementById(arg).style.display='none';
+    }
+    else{
+        document.getElementById(arg).style.display='block';
+    }
+    
+
+}
+		</script>
+	</head>
+	<body>
+	<header>
+        <img src="AFC.png">
+		<h1>AFC Football Teams</h1>
+	</header>
+	<nav>
+		<ul>
+			<li onclick="toggleMenu('submenu1');"><a href="#">AFC North</a>
+				<ul class="submenu" id="submenu1">
+					<li><a href="https://www.nfl.com/teams/cincinnati-bengals/">Bengals (12-4)</a></li>
+					<li><a href="https://www.nfl.com/teams/baltimore-ravens/">Ravens (10-7)</a></li>
+					<li><a href="https://www.nfl.com/teams/pittsburgh-steelers/">Steelers (9-8)</a></li>
+                    <li><a href="https://www.nfl.com/teams/cleveland-browns/">Browns (7-10)</a></li>
+				</ul>
+			</li>
+			<li onclick="toggleMenu('submenu2');"><a href="#">AFC South</a>
+				<ul class="submenu" id="submenu2">
+					<li><a href="https://www.nfl.com/teams/jacksonville-jaguars/">Jaguars (9-8)</a></li>
+					<li><a href="https://www.nfl.com/teams/tennessee-titans/">Titians (7-10)</a></li>
+					<li><a href="https://www.nfl.com/teams/indianapolis-colts/">Colts (4-12)</a></li>
+                    <li><a href="https://www.nfl.com/teams/houston-texans/">Texans (3-13)</a></li>
+				</ul>
+			</li>
+			<li onclick="toggleMenu('submenu3');"><a href="#">AFC East</a>
+				<ul class="submenu" id="submenu3">
+					<li><a href="https://www.nfl.com/teams/buffalo-bills/">Bills (13-3)</a></li>
+					<li><a href="https://www.nfl.com/teams/miami-dolphins/">Dolphins (9-8)</a></li>
+					<li><a href="https://www.nfl.com/teams/new-england-patriots/">Patriots (8-9)</a></li>
+                    <li><a href="https://www.nfl.com/teams/new-york-jets/">Jets (7-10)</a></li>
+				</ul>
+			</li>
+            <li onclick="toggleMenu('submenu4');"><a href="#">AFC West</a>
+				<ul class="submenu" id="submenu4">
+					<li><a href="https://www.nfl.com/teams/kansas-city-chiefs/">Chiefs (14-3)</a></li>
+					<li><a href="https://www.nfl.com/teams/los-angeles-chargers/">Chargers (10-7)</a></li>
+					<li><a href="https://www.nfl.com/teams/las-vegas-raiders/">Raiders (6-11)</a></li>
+                    <li><a href="https://www.nfl.com/teams/denver-broncos/">Broncos (5-12)</a></li>
+				</ul>
+			</li>
+		
+		</ul>
+	
+	</nav>
+	<section>
+		<p>
+			The AFC conference is full of talented teams ready to win it all next season!<br> Click to see each teams record from last season and their team website.
+		</p>
+	</section>
+	<footer>
+		<p>Roman Giannuzzi</p>
+        <p>Professional Football Analysis</p>
+		<a href="../Portfolio.html">Back to Portfolio</a>
+	</footer>
+	
+	</body>
+</html>
